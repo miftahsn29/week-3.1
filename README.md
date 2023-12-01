@@ -15,7 +15,7 @@ Clone the repository and install the dependencies:
 
 git clone https://github.com/your-username/week-3.git
 cd week-3
-```
+
 npm install
 
 ## Running the Server
