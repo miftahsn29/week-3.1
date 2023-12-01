@@ -13,26 +13,25 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 
 Clone the repository and install the dependencies:
 
-```bash
-
 git clone https://github.com/your-username/week-3.git
 cd week-3
+```
 npm install
 
->Running the Server
+## Running the Server
 Start the Express server:
 
 bash
 npm start
 The server will be running on http://localhost:3000.
 
->API Endpoints
+##API Endpoints
 
-1. Home
+#1. Home
 Endpoint: /
 Method: GET
 Description: Get a simple "Hello World!" message.
-2. Login
+# 2. Login
 Endpoint: /login
 
 Method: POST
