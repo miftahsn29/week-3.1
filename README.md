@@ -1,5 +1,4 @@
 # week-3.1
-# Week-3 Express Server
 
 This is a simple Express server with login functionality. It includes basic usage of Express, body-parser, and CORS middleware.
 
