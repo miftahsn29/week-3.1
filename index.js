@@ -28,6 +28,7 @@ app.post("/login", (req, res) => {
   //return semua kondisi failed terlebih dahulu
   //check if username is valid
   if (req.body.username !== username) {
+    res.statusCode = 402
     res.json({
       status: "error, username not found",
     });
@@ -35,6 +36,7 @@ app.post("/login", (req, res) => {
   }
   //check if password is valid
   if (req.body.password !== password) {
+    res.statusCode = 403
     res.json({
       status: "error, wrong password",
     });
